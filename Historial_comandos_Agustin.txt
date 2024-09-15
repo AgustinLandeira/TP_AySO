@@ -1,0 +1,313 @@
+exit
+pwd
+whoami
+cd /
+ls
+cd $home
+ls
+pwd
+cd carpeta_compartida
+ls
+ls -a
+cd ..
+pwd
+ls
+cat readme
+cat README
+cp README carpeta_compartida/
+cd carpeta_compartida/
+ls
+ls -a
+cd /
+ls
+cd etc
+ls
+cat passwd
+cat shadow
+cd
+pwd
+ls
+cd carpeta_compartida/
+cat VagrantFile
+grep ip VagrantFile
+cd /
+ls
+cd var/
+ls
+cd log/
+ls
+cat dmesg
+sudo cat dmesg
+cd /
+pwd
+echo $home
+pwd
+cd home/
+cd vagrant
+pwd
+sudo apt install git
+git --version
+ssh-keygen
+ls
+ls -a
+cd .ssh/
+ls
+cat id_rsa.pub
+cd
+pwd
+git clone git@github.com:AgustinLandeira/viernes6.git
+ls
+de viernes6
+cd viernes6/
+ls
+cd ..
+pwd
+cp README viernes6/
+ls
+cd viernes6/
+ls
+git status
+git add .
+git status
+git commit -m "primer archivo"
+git status
+git commit -m "primer cambio"
+git config --global user.email "landeira2017@gmail.com"
+git commit -m "primer cambio"
+git config --global user.name "agus2023"
+git push origin main
+cat << FIN >> README
+agustin
+FIN
+
+git add .
+git status
+git commit -m "agrego linea nueva"
+git push origin main
+cd 
+pwd
+ls
+cd carpeta_compartida
+ls
+cat README
+cd VagrantFile
+Vagrantfile
+ls -a
+cd Vagrantfile
+exit
+pwd
+ls
+cd viernes6
+ls
+cat README
+cd ..
+pwd
+ls
+cd carpeta_compartida
+le
+ls
+cd Vagrantfile
+cat Vagrantfile
+grep ip Vagrantfile
+grep hostname Vagrantfile
+cd /
+ls
+ls -a
+cd log
+cd var
+ls
+cd log
+ls 
+cd dmesg/
+cd dmesg
+cat dmesg
+sudo cat dmesg
+cd ,,
+cd ..
+pws
+pwd
+ls
+cd home
+ls
+exit
+pwd
+ls
+cd viernes6
+ls
+git status
+cat <<FIN>> README
+una nueva linea
+FIN
+
+git status
+git add .
+git commit -m "ultimo cambio"
+git push origin main
+cd ..
+exit
+pwd
+ls
+cat README
+cd viernes6
+ls
+cat README
+cd ..
+ls
+cd carpeta_compartida/
+ls
+ls -a
+cd ..
+pwd
+cd
+pwd
+cd /
+pwd
+ls
+ls -a
+cd home
+cd Vagrant
+cd vagrant
+pwd
+ls
+ls -a
+cd .ssh
+ls
+cd 
+pwd
+ls
+exit
+grep linea archivo.txt 
+cat archivo.txt | head -n 2 | grep 5
+cat /proc/cpuinfo
+grep -i proce /proc/cpuinfo
+cat /proc/cpuinfo | less
+mkdir clase3
+ls -la
+cd clase3
+ls -la
+cd ..
+pwd
+mv archivo.txt lineas.txt
+ls
+mv lineas.txt clase3/
+ls
+cd clase3/
+ls
+cp lineas.txt ..
+ls -la
+cd ..
+ls -la
+rm -i lineas.txt
+ls
+rm lineas.txt 
+ls
+rmdir clase3/
+rm clase3/
+cd clase3/
+mv lineas.txt ..
+ls
+cd ..
+rmdir clase3/
+ls -la
+cp lineas.txt carpeta_compartida/
+history
+ls -la
+history > historial.txt
+ls -la
+cat historial.txt 
+cp historial.txt carpeta_compartida/
+cat carpeta_compartida/
+cd carpeta_compartida/
+ls
+cd ..
+vim lineas.txt 
+cat lineas.txt 
+vim ejecutable.sh
+cat ejecutable.sh 
+chmod 777 ejecutable.sh 
+./ejecutable.sh 
+exit
+cat archivo.txt 
+cat archivo.txt  | head -n 1
+cat archivo.txt | tail -n 2
+vagrant ssh
+pwd
+cd
+pwd
+exit
+cd
+ls
+cd repogit
+pwd
+ls -l
+cd TP_AySO/
+ls -l
+cat /etc/os-release 
+man grep
+get HOME_URL /etc/os-release
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release 
+whoami
+id -un
+echo "Usuario=$(whoami)"> datos_usuario.txt
+git status
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+cat /proc/cpuinfo 
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git status
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+man grep
+exit
+pwd
+cd repogit/
+cd TP_AySO/
+man grep
+man sort
+grep -v "nologin" /etc/passwd | head | sort -t: -k7
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t: -k7 > 
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t: -k7
+grep -v "nologin" /etc/passwd | head  | sort -t: -k7 > lista_ordenada
+ls
+cat lista_ordenada less
+cat lista_ordenada | less
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+echo "el nombre del comando para realizar un dump traffic es : tcpdump" > comando_dump_net
+ls | less
+cat comando_dump_net | less
+cat -k "dump traffic"
+man -k "dump traffic"
+man -k "network traffic"
+man -k traffic
+man -k "traffic"
+man ls | less
+man -k 'dump traffic'
+man -k 'network traffic'
+man -k seach
+man -k "dump traffic"
+apropos network traffic
+ls | less
+cat <<FIN>> README.md 
+Alumno: Agustin Landeira
+Division: 114
+Turno: mañana
+FIN
+
+cat README.md 
+cat << FIN > README.md 
+Alumno: Agustin Landeira
+Division: 144
+Turno: mañana
+FIN
+
+cat README.md 
+git add README.md 
+git commit -m "docs: agrego informacion del alumno"
+git add comando_dump_net 
+git commit -m "ADD:Comando para Capturar y analizar el trafico de red"
+history -a
